@@ -1,0 +1,178 @@
+https://github.com/rashi3001/centralgit.git
+
+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
+
+    1  pwd
+    2  git --version
+    3  sudo yum update
+    4  git --version
+    5  sudo yum install git
+    6  git --version
+    7  cat /etc/os-release
+    8  history
+    9  mkdir project1
+   10  ls
+   11  cd project1/
+   12  pwd
+   13  vim index.html
+   14  cat index.html
+   15  vim index.html
+   16  cat index.html
+   17  git status
+   18  ls -a
+   19  git init
+   20  ls -al
+   21  cd .git
+   22  ls
+   23  ll
+   24  cd ..
+   25  git status
+   26  touch testfile.txt
+   27  cat >testfile.txt
+   28  cat testfile.txt
+   29  git add .
+   30  git status
+   31  vi rashi.txt
+   32  ls
+   33  git ls-files
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "My first ever commit"
+   38  git ls-files
+   39  git status
+   40  git log
+   41  git show 0febb1917055
+   42  vi testfile.txt
+   43  cat testfile.txt
+   44  git status
+   45  git add testfile.txt
+   46  git commit -m "changes updated in testfile.txt"
+   47  git log
+   48  git log --oneline
+   49  git show aac68c2
+   50  history
+   51  git config --global --edit
+   52  git commit --amend --reset-author
+   53  ls
+   54  git status
+   55  vim index.html
+   56  git status
+   57  git add index.html
+   58  git status
+   59  git commit -m "changes done in index.html"
+   60  git log
+   61  git log --online
+   62  git log --oneline
+   63  uptime
+   64  ls
+   65  vim rashi.txt
+   66  vim testfile.txt
+   67  git add .
+   68  git commit -am "changes done in 2 files"
+   69  git status
+   70  git log --oneline
+   71  git diff 0febb19 8fb72e7
+   72  cat > README
+   73  vim .gitignore
+   74  cat .gitignore
+   75  ls -a
+   76  ls
+   77  git status
+   78  git add .gitignore
+   79  git commit -m "added .gitignore file"
+   80  ls
+   81  vim ras.info
+   82  git status
+   83  vim .gitignore
+   84  git status
+   85  vim .gitignore
+   86  git status
+   87  git commit -am "modified .gitignore file once again"
+   88  git status
+   89  cat .gitignore
+   90  touch a.log
+   91  git status
+   92  touch b.txt
+   93  git status
+   94  mkdir test
+   95  cd test
+   96  touch file1.txt file2.txt file3.txt
+   97  ll
+   98  cd ..
+   99  git status
+  100  rm b.txt
+  101  git status
+  102  git log
+  103  git log --oneline
+  104  git diff 9dbb9cd 141e693
+  105  git log -p testfile.txt
+  106  history
+  107  git ls-files
+  108  pwd
+  109  ls
+  110  cd project1/
+  111  git ls-files
+  112  ls -a
+  113  ls -al
+  114  git log --oneline
+  115  git tag -a v1.0 f78340e
+  116  git log --oneline
+  117  git tag -a v2.0 141e693
+  118  git log --oneline
+  119  git remote add origin https://github.com/rashi3001/mydocsrepo.git
+  120  git push -u origin main
+  121  git push -u origin master
+  122  git push -u origin master --tags
+  123  git pull
+  124  ls
+  125  git ls-files
+  126  git log --oneline
+  127  cat enufofshit.txt
+  128  cd ..
+  129  mkdir newdev
+  130  cd newdev/
+  131  git clone https://github.com/rashi3001/mydocsrepo.git
+  132  ls
+  133  cd mydocsrepo/
+  134  ls
+  135  git log --oneline
+  136  git status
+  137  cd ..
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd newdev
+  142  git status
+  143  cd mydocsrepo/
+  144  git status
+  145  cd ..
+  146  cd project1/
+  147  ls
+  148  cd test/
+  149  ls
+  150  ll
+  151  cd ../p
+  152  cd ..
+  153  git branch
+  154  git branch dev master
+  155  git branch
+  156  git branch prod master
+  157  git branch
+  158  git checkout dev
+  159  ls
+  160  git status
+  161  git branch
+  162  touch file-dev
+  163  git status
+  164  git add .
+  165  git commit -m
+  166  git commit -m "on branch dev"
+  167  git status
+  168  git log --oneline
+  169  git checkout prod
+  170  git branch
+  171  ls
+  172  git checkout master
+  173  ls
+  174  history
